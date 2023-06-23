@@ -1,0 +1,1 @@
+let listInvitados = ["Jose","Maria","Andres","Lionel","Sofia","Leandro","Emilia"];

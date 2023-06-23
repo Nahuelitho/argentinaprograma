@@ -14,9 +14,12 @@ let mesesArray= [
     {mes:'Noviembre', dias:30},
     {mes:'Diciembre', dias:31}
 ];
-let mes = readlineSync.question("Ingrese un numero de un mes: ");
+let mes = readlineSync.question("Ingrese un numero de un mes del 1 al 12: ");
+if(mes>=1&&mes<=12){
 console.log("La cantidad de dias del mes ", mesesArray[--mes].mes,"es",mesesArray[--mes].dias);
-
+}else{
+    console.log("Numero invalido");
+}
 
 
 //let meses1 = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
